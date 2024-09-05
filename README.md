@@ -39,9 +39,9 @@ This repository includes pre-trained models for both the 3-layer and 6-layer con
 You can load these models directly in your scripts or notebooks to reproduce the results, or fine-tune them for further experiments.
 ## **Results**
 After running the notebooks, you will generate:
-	- Training and validation loss curves: Plots showing model performance during training.
-	- FBP and optimized image comparisons: Histograms and image outputs comparing the quality of FBP reconstructed images and those optimized by the regularizer.
-	- MSE : Analysis of Mean Squared Error (MSE) between true images and their reconstructions.
+- Training and validation loss curves: Plots showing model performance during training.
+- FBP and optimized image comparisons: Histograms and image outputs comparing the quality of FBP reconstructed images and those optimized by the regularizer.
+- MSE : Analysis of Mean Squared Error (MSE) between true images and their reconstructions.
 All these plots are automatically displayed during execution.
 
 ## **Acknowledgments**
