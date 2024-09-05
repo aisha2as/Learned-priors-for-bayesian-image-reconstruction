@@ -2,10 +2,10 @@
 This repository contains the code and datasets for implementing and evaluating Adversarial Convolutional Regularizer (ACR) models for Bayesian image reconstruction. The models aim to enhance image quality by utilizing convolutional neural networks (CNNs) for regularization, applied specifically to noisy image data, such as those generated from medical imaging techniques like CT scans.
 ## **Dataset** 
 The zipped dataset file contains four primary directories:
--**train_data**: Consists of 500 true images and their corresponding FBP-reconstructed images. Used for training the model.
--**test_data**: Contains 100 true images and their corresponding FBP-reconstructed images. Used for testing the regularizer.
--**dataset_for_optimization**: Includes 20 true images. Specifically used in the Gradient Descent (GD) algorithm.
--**dataset_for_testing_GD**: Contains images used to test the performance of the Gradient Descent algorithm.
+- **train_data**: Consists of 500 true images and their corresponding FBP-reconstructed images. Used for training the model.
+- **test_data**: Contains 100 true images and their corresponding FBP-reconstructed images. Used for testing the regularizer.
+- **dataset_for_optimization**: Includes 20 true images. Specifically used in the Gradient Descent (GD) algorithm.
+- **dataset_for_testing_GD**: Contains images used to test the performance of the Gradient Descent algorithm.
 All datasets were generated using the code provided in the notebooks within this repository. The FBP-reconstructed images were generated from sinograms with 90 projections, and Gaussian noise with a mean of 0 and a variance of 0.5 was applied.
 # **Project Structure**
 ## **Notebooks**:
