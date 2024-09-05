@@ -14,10 +14,10 @@ All datasets were generated using the code provided in the notebooks within this
 ## **Setup and Requirements**
 The code in this repository uses the Core Imaging Library (CIL), which provides advanced tools for tomographic imaging. You can find detailed installation instructions for CIL [here](https://github.com/TomographicImaging/CIL#installation-of-cil).
 ### Libraries and Tools Used
-	- PyTorch
-	- NumPy
-	- Matplotlib
-	- Core Imaging Library (CIL) – for tomographic imaging and reconstruction tasks
+- PyTorch
+- NumPy
+- Matplotlib
+- Core Imaging Library (CIL) – for tomographic imaging and reconstruction tasks
 ## **Using Google Colab for Notebooks**
 This project requires a GPU to run efficiently, especially when training convolutional neural networks and performing image reconstruction. We recommend using Google Colab with a T4 GPU to execute the Jupyter notebooks in this repository.
 ### To use Google Colab:
