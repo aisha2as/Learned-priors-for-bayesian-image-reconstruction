@@ -1,6 +1,6 @@
-**Learned Priors for Image Reconstruction**
+# **Learned Priors for Image Reconstruction**
 This repository contains the code and datasets for implementing and evaluating Adversarial Convolutional Regularizer (ACR) models for Bayesian image reconstruction. The models aim to enhance image quality by utilizing convolutional neural networks (CNNs) for regularization, applied specifically to noisy image data, such as those generated from medical imaging techniques like CT scans.
-**Dataset** 
+## **Dataset** 
 The zipped dataset file contains four primary directories:
 train_data: Consists of 500 true images and their corresponding FBP-reconstructed images. Used for training the model.
 test_data: Contains 100 true images and their corresponding FBP-reconstructed images. Used for testing the regularizer.
