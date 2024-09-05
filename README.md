@@ -14,10 +14,10 @@ All datasets were generated using the code provided in the notebooks within this
 ## **Setup and Requirements**
 The code in this repository uses the Core Imaging Library (CIL), which provides advanced tools for tomographic imaging. You can find detailed installation instructions for CIL [here](https://github.com/TomographicImaging/CIL#installation-of-cil).
 ### Libraries and Tools Used
-•	PyTorch
-•	NumPy
-•	Matplotlib
-•	Core Imaging Library (CIL) – for tomographic imaging and reconstruction tasks
+	- PyTorch
+	- NumPy
+	- Matplotlib
+	- Core Imaging Library (CIL) – for tomographic imaging and reconstruction tasks
 ## **Using Google Colab for Notebooks**
 This project requires a GPU to run efficiently, especially when training convolutional neural networks and performing image reconstruction. We recommend using Google Colab with a T4 GPU to execute the Jupyter notebooks in this repository.
 ### To use Google Colab:
@@ -32,16 +32,16 @@ Alternatively, you can run the notebooks directly on a local machine if you have
 3.	Run the cells to train the models or test the regularizer on your dataset.
 ## **Pre-trained Models**
 This repository includes pre-trained models for both the 3-layer and 6-layer convolutional regularizer models, saved as .pth files. These models were trained using data with 90 projections and a regularization term (lambda_gp) set to specific values after hyperparameter tuning.
--**3-layer Conv Model**: best_model_3_conv_layer_90_proj_reg_lambda.pth
+- **3-layer Conv Model**: best_model_3_conv_layer_90_proj_reg_lambda.pth
 	This model was trained with 90 projections and the regularization parameter lambda_gp=0.1 and learning_rate=0.1.
--**6-layer Conv Model**: best_model_6_conv_layer_90_proj_reg_lambda.pth
+- **6-layer Conv Model**: best_model_6_conv_layer_90_proj_reg_lambda.pth
 	This model was trained with 90 projections and a regularization parameter lambda_gp=0.1 and learning_rate=0.001.
 You can load these models directly in your scripts or notebooks to reproduce the results, or fine-tune them for further experiments.
 ## **Results**
 After running the notebooks, you will generate:
-•	Training and validation loss curves: Plots showing model performance during training.
-•	FBP and optimized image comparisons: Histograms and image outputs comparing the quality of FBP reconstructed images and those optimized by the regularizer.
-•	MSE : Analysis of Mean Squared Error (MSE) between true images and their reconstructions.
+	- Training and validation loss curves: Plots showing model performance during training.
+	- FBP and optimized image comparisons: Histograms and image outputs comparing the quality of FBP reconstructed images and those optimized by the regularizer.
+	- MSE : Analysis of Mean Squared Error (MSE) between true images and their reconstructions.
 All these plots are automatically displayed during execution.
 
 ## **Acknowledgments**
